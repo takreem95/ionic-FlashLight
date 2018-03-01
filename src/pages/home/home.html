@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Flashlight
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <button ion-button color="primary" (click)="switchFlashLight()" [ngStyle]="{'background-color': buttonColor}">
+    {{ btn_title }}
+  </button>
+</ion-content>
